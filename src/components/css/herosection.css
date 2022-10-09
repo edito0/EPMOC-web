@@ -1,0 +1,168 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro_logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+ 
+.logoupper,
+.logolower {
+    height: 200px;
+    transform: translate(0px 0px);
+    transition: all 0.3s ease;
+    filter: invert();
+}
+
+.logolower {
+    position: absolute;
+    left: 0px;
+    height: 200px;
+}
+
+
+.intro_name {
+    display: flex;
+}
+
+.intro_name p {
+    font-weight: bold;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+}
+
+.intro_para:last-child {
+    letter-spacing: 0rem;
+}
+
+
+.introPlay {
+    transform: rotate(-90deg);
+    transition: all 0.3s ease;
+}
+
+.logolowerMove {
+    transition: all 0.3s ease;
+    animation: lowerMove 0.3s ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lowerMove {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(190px);
+    }
+}
+
+.logoupperMove {
+    transition: all 0.3s ease;
+    animation: upperMove 0.3s ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes upperMove {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-190px);
+    }
+}
+
+
+.introPlayOut {
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.intro_name {
+    cursor: pointer;
+}
+
+
+
+.logolowerMoveOut {
+    transition: all 0.3s ease;
+    animation: lowerMoveOut 0.3s ease;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lowerMoveOut {
+    from {
+        transform: translateY(190px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+.clubTitle {
+    font-size: 3rem;
+    position: absolute;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.clubTitleVisible {
+    opacity: 1;
+    transition: all 0.9s ease;
+    animation: titleAnimation 1s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.intro_para {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+
+.main_para {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.main_para:hover{
+    transform: scale(1.1);
+}
+
+.intro p{
+    color: white;
+}

@@ -1,0 +1,161 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-right: 60px;
+}
+
+.box-text-1 span:nth-child(3){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-2 span:nth-child(1){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-2 span:nth-child(5){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-2 span:nth-child(6){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-2 span:nth-child(9){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-2 span:nth-child(10 ){
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+}
+
+.box-text-3 span:nth-child(3 ){ 
+     color: rgba(255, 240, 240, 0);
+     -webkit-text-stroke:1px white;
+} 
+
+
+button{
+    background-color: rgba(240, 248, 255, 0);
+    outline: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.9s ease;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:  #202B3D;
+}
+
+
+.box-2 img{
+    width: 600px;
+    position: relative;
+    animation: bounce infinite 3s ease;
+}
+
+.scroll-mark{
+    position: absolute;
+    left: 5px;
+    bottom: 50px;
+    font-size: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg );
+    color: white;
+}
+
+.scroll-mark span:first-child{
+    font-size: 15px;
+
+}
+
+@keyframes bounce {
+    0%{
+        top: -20px;
+    }
+    40%
+    {
+        top: 0px;
+    }
+    100%
+    {
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+    .box-2 img{
+        width: 400px;
+       
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .box-2 img{
+        width: 350px;
+       
+    }
+
+    .box-1{
+        font-size: 3rem;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 849px) {
+    
+    .container{
+        flex-direction:column-reverse ;
+    }
+
+
+    .box-2 img{
+        width: 400px;
+       
+    }
+
+    .box-1{
+        font-size: 3rem;
+        margin-right: 0px;
+        margin-top: 60px;
+       
+    }
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    
+
+    .box-2 img{
+        width: 300px;
+       
+    }
+
+    .box-1{
+        font-size: 2.5rem;
+        margin-right: 0px;
+        margin-top: 60px;
+       
+    }
+    
+}
