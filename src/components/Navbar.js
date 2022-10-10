@@ -28,10 +28,10 @@ function Navbar() {
           <div className='items'>
             <ul>
               <li><a href="/">HOME</a><div className='underline'></div></li>
-              <li><a href="/">ABOUT ME</a><div className='underline'></div></li>
+              <li><a href="#about">ABOUT ME</a><div className='underline'></div></li>
               <li><a href="/">EVENTS</a><div className='underline'></div></li>
               <li><a href="/">TEAM</a><div className='underline'></div></li>
-              <li><a href="/">CONTACT US</a><div className='underline'></div></li>
+              <li><a href="#contact">CONTACT US</a><div className='underline'></div></li>
             </ul>
           </div>
 

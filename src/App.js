@@ -31,8 +31,9 @@ function App() {
 
         <Navbar />
          <Hero/> 
+ 
+      </div> 
 
-         </div>
          <Herosection/>
          <GallerySection/>
          <Footer/>
