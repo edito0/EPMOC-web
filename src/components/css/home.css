@@ -1,0 +1,80 @@
+/* GENERAL ELEMENTS */
+.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 16px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Hind', sans-serif; font-weight: bold; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;max-width:320px;}
+.btn.btn_trans {background: transparent; border-color: #fff; color: #fff}
+  .btn.btn_trans:hover {background: #0F4C75 !important; border-color: #0F4C75; color: #fff !important}
+.btn.btn_rounded {border-radius: 50px;}
+.btn.btn_lg {font-size:20px;  padding: 10px 60px; line-height: 2em;}
+
+.spacer{
+    height: 10rem;
+}
+.section {
+    padding: 10rem 1rem;
+    /* border-top: 1px solid #ddd; */
+    transition: transform 1s, opacity 1s;
+  }
+  
+  .section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+  
+  .section__title {
+    max-width: 50rem;
+    margin: 0 auto 5rem auto;
+  }
+  
+  .section__description {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--active-color);
+    margin-bottom: 1rem;
+  }
+  
+  .section__header {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+  p {
+    color: #666;
+  }
+  
+  /* This is BAD for accessibility! Don't do in the real world! */
+  button:focus {
+    outline: none;
+  }
+  
+  img {
+    transition: filter 0.5s;
+  }
+  
+  .lazy-img {
+    filter: blur(20px);
+  }
+
+  .main__icons{
+    height: 3rem;
+    width: 3rem;
+  }
+
+
+  /* Gallery Section  */
+
+  .gallery__section{
+    background: linear-gradient(rgba(29, 32, 38, 0.6), rgba(29, 32, 38, 0.8)),
+    url("../../images/gallery.jpg") center center no-repeat;
+  
+ 	  background-attachment:fixed;
+	  background-size: cover;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+    color: #fff;
+    height: 70vh;
+  }
+
+  .gallery__in{
+    padding: 50px;
+    height: 100%;
+  }

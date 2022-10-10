@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './css/herosection.css';
 import introLogoUpper from '../EPMOC LOGO-upper.png'
 import introLogoLower from '../EPMOC LOGO-lower.png'
@@ -22,6 +22,34 @@ function Herosection() {
 
     }
 
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         console.log("temp");
+    //         const timer1 = setTimeout(() => {
+    //             introPlay("Event");
+    //         },10);
+    //         const timer2 = setTimeout(() => {
+    //             introPlay("Event");
+    //         }, 1000);
+    //         const timer3 = setTimeout(() => {
+    //             introPlay("Management");
+    //         }, 2000);
+    //         const timer4 = setTimeout(() => {
+    //             introPlay("Management");
+    //         }, 3000);
+    //         const timer5 = setTimeout(() => {
+    //             introPlay("Club");
+    //         }, 4000);
+    //         const timer6 = setTimeout(() => {
+    //             introPlay("Club");
+    //         }, 5000);
+            
+    //     }, 6000);
+        
+    //     return () => clearInterval(interval);
+    //   }, []);
+
+    
 
 
 
