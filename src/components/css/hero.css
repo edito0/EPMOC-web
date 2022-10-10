@@ -10,6 +10,7 @@
     font-size: 4rem;
     font-weight: bolder;
     margin-right: 60px;
+    z-index: 1;
 }
 
 .box-text-1 span:nth-child(3){

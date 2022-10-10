@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import './css/herosection.css';
 import introLogoUpper from '../EPMOC LOGO-upper.png'
 import introLogoLower from '../EPMOC LOGO-lower.png'
@@ -22,40 +22,13 @@ function Herosection() {
 
     }
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         console.log("temp");
-    //         const timer1 = setTimeout(() => {
-    //             introPlay("Event");
-    //         },10);
-    //         const timer2 = setTimeout(() => {
-    //             introPlay("Event");
-    //         }, 1000);
-    //         const timer3 = setTimeout(() => {
-    //             introPlay("Management");
-    //         }, 2000);
-    //         const timer4 = setTimeout(() => {
-    //             introPlay("Management");
-    //         }, 3000);
-    //         const timer5 = setTimeout(() => {
-    //             introPlay("Club");
-    //         }, 4000);
-    //         const timer6 = setTimeout(() => {
-    //             introPlay("Club");
-    //         }, 5000);
-            
-    //     }, 6000);
-        
-    //     return () => clearInterval(interval);
-    //   }, []);
-
-    
 
 
 
 
     return (
         <>
+          <div className='aboutus' id='about'>
             <div className='intro'>
                 <div className='intro_logo'>
                     <img src={introLogoUpper} className='logoupper' alt="" />
@@ -69,7 +42,14 @@ function Herosection() {
                     <p className='intro_para'> O</p>
                     <p className='intro_para main_para' onClick={() => introPlay('CLUB')} > C</p>
                 </div>
-                <p style={{fontSize:'10px'}}>Tap On Gray Alphabet to Learn more about us</p>
+                <p>Tap On Alphabet to Learn more about us</p>
+            </div>
+
+            <div className='intro-data'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, qui earum natus et quidem a inventore quo repellendus quisquam, alias distinctio enim labore. Quod temporibus sit quis ducimus nulla maiores!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, qui earum natus et quidem a inventore quo repellendus quisquam, alias distinctio enim labore. Quod temporibus sit quis ducimus nulla maiores!
+            </div>
+
             </div>
         </>
     );

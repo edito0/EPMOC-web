@@ -27,15 +27,17 @@ function App() {
             </filter>
           </defs>
         </svg>
-
+   
 
         <Navbar />
          <Hero/> 
+
+         </div>
          <Herosection/>
          <GallerySection/>
          <Footer/>
         
-      </div>
+      
 
     </>
   );

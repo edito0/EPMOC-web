@@ -36,10 +36,10 @@
     align-items: center;
 }
 
-li {
+.items>ul>li {
     list-style: none;
     transition: all 0.9s ease;
-    /* border-right: 2px solid var(--blueExtraLight ); */
+    border-right: 2px solid var(--blueExtraLight );
     height: 25px;
 }
 

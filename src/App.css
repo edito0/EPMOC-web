@@ -34,11 +34,12 @@ body {
 }
 
 .bg{
- 
+    background-color: #202B3D;
 }
 
 .backgrounddrop{
     position: absolute;
-    z-index: -1;
+    top: 0;
+    z-index: 0;
 }
 
