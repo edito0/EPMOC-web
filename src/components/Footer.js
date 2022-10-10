@@ -36,9 +36,9 @@ const Footer = () => {
         <img src={Logo} alt="Logo" className="footer__logo" />
         <p className="footer__copyright">
             &copy; Copyright 2022
-            <a className="footer__link twitter-link" target="_blank" href="/"> EOMOC</a>. All Rights Reserved
+            <a className="footer__link twitter-link" target="_blank" href="/"> EPMOC</a>. All Rights Reserved
         </p>
-
+ 
     <div class="social__media__icon">
         <a href="https://instagram.com/vediksat"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/vediksat"><i class="fa-brands fa-facebook-f"></i></a>

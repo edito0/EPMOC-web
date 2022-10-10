@@ -147,7 +147,7 @@ li:last-child {
         width: 100%;
         height: 100vh;
         background-color:var(--blue);
-        z-index: 8;
+        z-index: 9;
     }
 
     .navbar-menu {
@@ -155,7 +155,7 @@ li:last-child {
         padding: 50px;
         left: 0;
         background-color: var(--blue);
-        z-index: 8;
+        z-index: 9;
     } 
 
     .items {
