@@ -1,0 +1,20 @@
+[ 
+    { 
+        "id": "1",
+        "image":"https://th.bing.com/th/id/OIP.4CKH_-rDctuu_xyIyGg4fgHaE8?pid=ImgDet&rs=1",
+        "name":"Name1",
+        "position":"faculty1" 
+    },
+    {
+        "id": "2",
+        "image":"https://th.bing.com/th/id/OIP.4CKH_-rDctuu_xyIyGg4fgHaE8?pid=ImgDet&rs=1",
+        "name":"Name2",
+        "position":"faculty2"   
+    },
+    {
+        "id": "3",
+        "image":"https://th.bing.com/th/id/OIP.4CKH_-rDctuu_xyIyGg4fgHaE8?pid=ImgDet&rs=1",
+        "name":"Name3",
+        "position":"faculty3"   
+    }
+]
