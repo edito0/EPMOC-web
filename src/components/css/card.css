@@ -1,0 +1,39 @@
+.card::before{
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 100% ;
+     height: 190px;
+     background-color: #141b26 ;
+     z-index: -2;
+}
+                                                   
+.card{
+    position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+     flex-direction: column; 
+     width: 100%;
+     height: 400px; 
+     background-color: white;
+     z-index: 0;
+     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.322);
+}
+
+.card img{ 
+     height: 200px;
+     width: 200px;
+     object-fit: cover;
+     border-radius: 50%;                       
+     border: 10px solid #ffffff  ;
+
+}
+
+.line{ 
+    position: absolute;
+    bottom: 0px;
+    width: 100%;  
+    height: 6px;
+    background: linear-gradient(90deg, red,pink,blue,red,purple,pink,red  );
+}

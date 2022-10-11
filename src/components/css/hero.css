@@ -10,7 +10,38 @@
     font-size: 4rem;
     font-weight: bolder;
     margin-right: 60px;
-    z-index: 1;
+    
+}
+
+
+
+.box-text-1,.box-text-2,.box-text-3{
+    animation: sidedrop 1s ease;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: backwards;
+    position: relative;
+    left: 0px;
+    opacity: 1;                            
+} 
+
+.box-text-2{
+    animation-delay: 0.3s; 
+}
+
+.box-text-3{
+    animation-delay: 0.6s;
+}
+
+@keyframes sidedrop {
+    from{
+         left: -200px;
+         opacity: 0;
+    }
+    t0{
+         left: 0px;
+         opacity: 1;
+    }
+    
 }
 
 .box-text-1 span:nth-child(3){
@@ -57,6 +88,14 @@ button{
     color: white;
     font-weight: bold;
     transition: all 0.9s ease;
+
+    animation: sidedrop 1s ease;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: backwards;
+    position: relative;
+    left: 0px;
+    opacity: 1; 
+    animation-delay: 0.9s;
 }
 
 button:hover{
@@ -66,14 +105,14 @@ button:hover{
 
 
 .box-2 img{
-    width: 600px;
+    width: 600px; 
     position: relative;
     animation: bounce infinite 3s ease;
 }
 
 .scroll-mark{
     position: absolute;
-    left: 5px;
+    right: 5px;
     bottom: 50px;
     font-size: 20px;
     display: flex; 
@@ -149,7 +188,6 @@ button:hover{
 
     .box-2 img{
         width: 300px;
-       
     }
 
     .box-1{
