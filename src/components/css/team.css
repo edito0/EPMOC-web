@@ -1,0 +1,12 @@
+.team{
+    background-color: #202B3D;
+}
+
+.card__container{
+    margin:90px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

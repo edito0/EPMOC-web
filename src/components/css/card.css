@@ -1,0 +1,39 @@
+.card::before{
+    position: absolute;
+    top: 0;
+    content: '';
+     width: 300px;
+     height: 180px;
+     background-color: #141b26 ;
+     z-index: -2;
+}
+
+.card{
+    position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 300px;
+     height: 400px;
+     background-color: white;
+     margin: 20px;
+     z-index: 0;
+}
+
+.card img{
+     height: 200px;
+     width: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 10px solid #ffffff  ;
+
+}
+
+.line{ 
+    position: absolute;
+    bottom: 0px;
+    width: inherit;
+    height: 6px;
+    background: linear-gradient(90deg,#141b26,#59739b  );
+}
