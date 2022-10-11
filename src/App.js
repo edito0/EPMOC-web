@@ -19,7 +19,7 @@ function App() {
           <Route path="/team" element={<Team />}>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
 
     </>
   );
