@@ -39,7 +39,7 @@ const Footer = () => {
             <a className="footer__link twitter-link" target="_blank" href="/"> EPMOC</a>. All Rights Reserved
         </p>
  
-    <div class="social__media__icon">
+    <div className="social__media__icon">
         <a href="https://instagram.com/vediksat"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/vediksat"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="https://www.linkedin.com/company/medilance"> <i class="fa-brands fa-linkedin-in"></i> </a>
