@@ -1,0 +1,7 @@
+.my-masonry {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}

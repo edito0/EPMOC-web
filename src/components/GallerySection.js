@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import "./css/home.css"
 
@@ -13,7 +14,7 @@ const GallerySection = () => {
           View the latest work gallery collection!
         </h3>
       </div>
-      <a href="/" className="btn btn_trans btn_lg">Gallery</a>
+      <Link to="/gallery" className="btn btn_trans btn_lg">Gallery</Link>
     </div>
   </div>
   <div className="spacer"></div>

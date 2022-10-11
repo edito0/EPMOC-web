@@ -1,13 +1,17 @@
 import './App.css';
+import { BrowserRouter as Router, Route,Routes,Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Herosection from './components/Herosection';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import GallerySection from './components/GallerySection';
+import Gallery from './components/Gallery/Gallery';
+import Home from './components/Home';
+import Team from './components/Team/Team';
 
 function App() {
   return (
     <>
+    <Router>
       <div className='bg'>
 
         <svg className='backgrounddrop' viewBox="0 0 1440 606" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,10 +37,16 @@ function App() {
          <Hero/> 
 
          </div>
-         <Herosection/>
-         <GallerySection/>
-         <Footer/>
+         
+         
+      <Routes>
+          <Route exact path="/" element={<Home/>}></Route>
+          <Route exact path="/gallery" element={ <Gallery/>}></Route>
+          <Route exact path="/team" element={ <Team/>}></Route>
+      </Routes>
         
+         <Footer/>
+      </Router>
       
 
     </>
