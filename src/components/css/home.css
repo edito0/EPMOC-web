@@ -119,3 +119,10 @@ img {
   padding: 50px;
   height: 100%;
 }
+
+
+.gallery{
+   color: white;
+   text-align: center;
+  background-color: #0F4C75;
+}

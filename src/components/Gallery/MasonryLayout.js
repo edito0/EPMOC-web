@@ -26,7 +26,7 @@ const MasonryLayout = ({ images }) => {
       {images.map(item => (
         <MasonryBox 
           key={item.id} 
-          wallSrc={item.src}  
+          wallSrc={item.src}   
         />
       ))}
       
