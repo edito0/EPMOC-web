@@ -49,8 +49,8 @@ function Herosection() {
 
         return () => clearInterval(interval);
       }, []);
-
-
+    //   onClick={() => introPlay('EVENT')}
+ 
     return (
         <>
             <div className='aboutus' id='about'>
@@ -61,11 +61,11 @@ function Herosection() {
                         <p className='clubTitle'>{title}</p>
                     </div>
                     <div className='intro_name' >
-                        <p className='intro_para main_para' onClick={() => introPlay('EVENT')}> E</p>
+                        <p className='intro_para main_para' > E</p>
                         <p className='intro_para'> P</p>
-                        <p className='intro_para main_para' onClick={() => introPlay('MANAGEMENT')}> M</p>
+                        <p className='intro_para main_para'> M</p>
                         <p className='intro_para'> O</p>
-                        <p className='intro_para main_para' onClick={() => introPlay('CLUB')} > C</p>
+                        <p className='intro_para main_para'  > C</p>
                     </div>
                     <p>Tap On Alphabet to Learn more about us</p>
                 </div>
