@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Gallery from './components/Gallery/Gallery';
 
 
-
+ 
 function App() {
   return (
     <>

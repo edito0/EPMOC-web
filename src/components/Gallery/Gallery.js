@@ -4,6 +4,7 @@ import styles from "./../../style.module.css"
 import '../css/home.css'
 import MasonryLayout from './MasonryLayout'
 import ContainerCard from './../ContainerCard/ContainerCard';
+import Footer from '../Footer';
 // import Dropdown from './../Elements/Dropdown/Dropdown';
 
 import images from "./../../Jsons/Images.json"
@@ -27,6 +28,8 @@ const Gallery = () => {
               <MasonryLayout images={images} />
           </ContainerCard>
         </div>
+
+        <Footer/>
     </div>
   )
 }

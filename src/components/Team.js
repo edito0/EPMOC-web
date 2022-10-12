@@ -5,12 +5,13 @@ import executives from '../executives.json';
 import members from '../members.json';
 
 
-
+ 
 import Card from './Card';
  
 import './css/team.css';
 import Navbar from './Navbar'; 
-
+import Footer from './Footer'; 
+ 
 function Team() { 
 
   return (
@@ -77,6 +78,9 @@ function Team() {
           </div> 
 
         </div>
+
+
+        <Footer/>
 
       </div>
     </>
